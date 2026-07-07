@@ -1,0 +1,40 @@
+{
+  "identifier" : "RoomswapProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "roomswap_group",
+      "localizations" : [],
+      "name" : "Roomswap Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "roomswap_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Push alerts before next class if room changed",
+              "displayName" : "Roomswap Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.roomswap.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Roomswap Pro Monthly",
+          "subscriptionGroupID" : "roomswap_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
